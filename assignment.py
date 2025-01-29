@@ -3,11 +3,20 @@ def format_string(name, age):
     Create a formatted string using f-strings.
     Args:
         name (str): Person's name
+        
         age (int): Person's age
     Returns:
         str: Formatted string
     """
     pass
+    return f"My name is{name} and I am {age} old."
+
+name =input("Enter your name:")
+age = int(input("Enter your age:"))
+
+formatted_text = format_string(name,age)
+print(formatted_text)
+    
 
 def conditional_check(number):
     """
