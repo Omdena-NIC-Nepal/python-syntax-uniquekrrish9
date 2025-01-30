@@ -15,7 +15,6 @@ def conditional_check(number):
         else:
             return "Equal"
   
-
  #take input from user
 num = int(input("Enter a number:"))
 print(conditional_check(num))
@@ -26,6 +25,7 @@ def loop_sum(n):
     for i in range(1, n+1):
         total +=i
     return total
+#take a number from user
 num = int(input("Enter a number:"))
 print(f"Sum from 1 to {num} is {loop_sum(num)}")
 
